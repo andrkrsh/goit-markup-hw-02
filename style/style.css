@@ -1,11 +1,12 @@
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.32px;
   color: #434455;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -40,19 +41,19 @@ h3 {
 }
 
 .logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16em;
+  line-height: 1.17em;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-span {
-  color: #4d5ae5;
+.logo span {
+  color: #2e2f42;
 }
 
 ul {
@@ -65,32 +66,53 @@ ul {
   text-decoration: none;
 }
 
-address a {
+.adress {
+  font-style: normal;
+}
+
+.address a {
   color: #434455;
 }
 
-address a:hover,
-address a:focus {
-  color: orange;
+.address a:hover,
+.address a:focus {
+  color: #404bbf;
 }
 
 .btn {
   color: #fff;
   letter-spacing: 0.64px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-#introduction,
-footer {
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.introduction,
+.footer {
   background: #2e2f42;
 }
 
-#team {
+.team {
   background: #f4f4fd;
 }
+.team-list li {
+  background-color: #fff;
+}
 
-footer .logo {
-  color: #fff;
+.footer .logo span {
+  color: #f4f4fd;
+}
+
+.footer p {
+  color: #f4f4fd;
 }
