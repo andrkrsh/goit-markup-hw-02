@@ -1,0 +1,96 @@
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
+  color: #434455;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07em;
+  letter-spacing: 1.12px;
+}
+
+h2 {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11em;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.4px;
+}
+
+.logo {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16em;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+span {
+  color: #4d5ae5;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-menu a {
+  color: #2e2f42;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+address a {
+  color: #434455;
+}
+
+address a:hover,
+address a:focus {
+  color: orange;
+}
+
+.btn {
+  color: #fff;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+#introduction,
+footer {
+  background: #2e2f42;
+}
+
+#team {
+  background: #f4f4fd;
+}
+
+footer .logo {
+  color: #fff;
+}
