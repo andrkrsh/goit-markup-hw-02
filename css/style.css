@@ -65,7 +65,7 @@ ul {
 
 /* Однаккові стилі для посиланнь в хедері */
 
-.header a {
+#header a {
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
